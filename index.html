@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+	<title>Angular Weather Demo Site</title>
+
+	<link rel="stylesheet" href="css/demo.css">
+    <link rel="stylesheet" href="scripts/angular-weather/css/aw.css">
+</head>
+<body ng-app="weatherDemoApp">
+
+	<div class="container" ng-view=""></div>
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.6/angular.min.js"></script>
+	<script type="text/javascript" src="scripts/angularjs/angular-route/angular-route.min.js"></script>
+	<script type="text/javascript" src="scripts/angularjs/angular-sanitize/angular-sanitize.min.js"></script>
+
+	<script src="scripts/demoApp/demoApp.js"></script>
+    <script src="scripts/demoApp/config.js"></script>
+    <script src="scripts/demoApp/controllers/main.js"></script>
+    <script src="scripts/demoApp/services/weatherService.js"></script>
+    <script src="scripts/demoApp/models/modelLocator.js"></script>
+
+    <script src="scripts/angular-weather/angular-weather.js"></script>
+    <script src="scripts/angular-weather/ngWeather.js"></script>
+    <script src="scripts/angular-weather/ngWeatherController.js"></script>
+</body>
+</html>

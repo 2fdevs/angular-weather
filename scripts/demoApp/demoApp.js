@@ -1,0 +1,1 @@
+angular.module('weatherDemoApp', ['ngRoute', 'angular-weather']);

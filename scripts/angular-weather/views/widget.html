@@ -1,0 +1,7 @@
+<div class="ng-weather-widget">
+	<img src="{{weatherProvider.current_condition[0].weatherIconUrl[0].value}}" alt="">
+	<p>Temperatura: {{weatherProvider.current_condition[0].temp_C}}</p>
+	<p>Humedad: {{weatherProvider.current_condition[0].humidity}}%</p>
+	<p>Descripción: {{weatherProvider.current_condition[0].lang_es[0].value}}</p>
+	<p>Hora: {{weatherProvider.current_condition[0].observation_time}}</p>
+</div>
